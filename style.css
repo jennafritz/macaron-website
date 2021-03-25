@@ -17,13 +17,34 @@ h3#subtitle {
     margin-top: 10px;
 }
 
-h4.flavors {
+h4.flavorTitle {
     text-align: center;
     font-family: "Papyrus", fantasy;
     font-size: 24px;
+    margin-top: 100px;
 }
 
-div#macaronPlates img {
-    padding: 0px;
-    margin: 0px;
+div#allFlavors div.macPhotos {
+    text-align: center;
+}
+
+div#allFlavors div img {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div#classicMacs {
+    text-align: center;
+}
+
+div#classicMacs img {
+
+}
+
+div#fruitMacs {
+    text-align: center;
+}
+
+div#funMacs {
+    margin-bottom: 100px;
 }
