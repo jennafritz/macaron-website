@@ -1,3 +1,24 @@
 body {
-    background: rgb(211, 169, 221);
+    background: rgb(206, 182, 212);
+}
+
+h1#title {
+ text-align: center;
+ font-size: 100px;
+ font-family: "Lucida Handwriting", cursive, serif;
+ margin-top: 20px;
+ margin-bottom: 10px;   
+}
+
+h3#subtitle {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Papyrus", fantasy;
+    margin-top: 10px;
+}
+
+h4.flavors {
+    text-align: center;
+    font-family: "Papyrus", fantasy;
+    font-size: 24px;
 }
