@@ -22,3 +22,8 @@ h4.flavors {
     font-family: "Papyrus", fantasy;
     font-size: 24px;
 }
+
+div#macaronPlates img {
+    padding: 0px;
+    margin: 0px;
+}
