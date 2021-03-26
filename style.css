@@ -1,7 +1,9 @@
+/* set background color */
 body {
     background: rgb(206, 182, 212);
 }
 
+/* format "Macaron" title */
 h1#title {
  text-align: center;
  font-size: 100px;
@@ -10,6 +12,7 @@ h1#title {
  margin-bottom: 10px;   
 }
 
+/* format "Made with Love" subtitle */
 h3#subtitle {
     text-align: center;
     font-size: 36px;
@@ -17,6 +20,7 @@ h3#subtitle {
     margin-top: 10px;
 }
 
+/* format the three flavor categories */
 h4.flavorTitle {
     text-align: center;
     font-family: "Papyrus", fantasy;
@@ -24,27 +28,22 @@ h4.flavorTitle {
     margin-top: 100px;
 }
 
+/* center the divs containing photos for each section (with each image in a span)*/
+div#allFlavors div.flavorSection div.macPhotos {
+    text-align: center;
+}
+
+/* center the divs containing photos for each section */
 div#allFlavors div.macPhotos {
     text-align: center;
 }
 
+/* add 25px padding to each individual macaron image */
 div#allFlavors div img {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
 }
 
-div#classicMacs {
-    text-align: center;
-}
-
-div#classicMacs img {
-
-}
-
-div#fruitMacs {
-    text-align: center;
-}
-
+/* add margin at bottom of page for aesthetics */
 div#funMacs {
     margin-bottom: 100px;
 }
