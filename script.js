@@ -1,7 +1,7 @@
 const title = document.getElementById("title");
 
 function aqua() {
-    title.setAttribute("style", "color:rgb(132,240,233)");
+    title.setAttribute("style", "color: rgb(158, 226, 235)");
     title.textContent = "~Macarons~";
 }
 
